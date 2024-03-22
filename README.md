@@ -2,6 +2,8 @@
 
 1. Clone the code into apps folder:
 2. Bundle install
+bundle config set --local path vendor/bundle
+
 3. Create symlink
    ln -snf ~/apps/goal_tracker/public ~/depot/mainline/weblive/bizappsroot/goal_tracker
 
