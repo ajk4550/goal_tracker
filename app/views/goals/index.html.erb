@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="goals--header">
+  <h1>All Goals</h1>
+  <%= link_to "New goal", new_goal_path, class: "btn btn-primary" %>
+</div>
+
+<div id="goals">
+  <% @goals.each do |goal| %>
+    <%= render goal %>
+  <% end %>
+</div>
+
+

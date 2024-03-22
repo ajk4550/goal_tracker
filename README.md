@@ -1,24 +1,18 @@
-# README
+# Hotwire Hands-On Training
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Clone the code into apps folder:
+2. Bundle install
+3. Create symlink
+   ln -snf ~/apps/goal_tracker/public ~/depot/mainline/weblive/bizappsroot/goal_tracker
 
-Things you may want to cover:
+4. Add app to the list of apps in httpd.conf.erb
+5. Test config and restart apache
+6. Run migrations (SQLite)
+7. Test app loads:
+   https://apps-business-main-ajk292.dev.web.sha.cornell.edu/goal_tracker/
 
-* Ruby version
+# Tasks:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Allow goal titles to be edited inline using turbo
+2. Allow deleting of goals via turbo streams
+3. Allow goals to be added from the index page by making a form appear when you click the "New Goal" button.
